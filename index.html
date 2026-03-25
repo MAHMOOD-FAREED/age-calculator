@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+     <div class="container">
+      <form action="#" id="myForm">
+           <div class="input-container">
+
+    <div class="input-group">
+        <label>DAY</label>
+        <input type="text" class="day" placeholder="DD">
+        <small class="error-message day-error"></small>
+    </div>
+    
+    <div class="input-group">
+        <label>MONTH</label>
+        <input type="text" class="month" placeholder="MM">
+        <small class="error-message month-error"></small>
+    </div>
+    
+    <div class="input-group">
+        <label>YEAR</label>
+        <input type="text" class="year" placeholder="YYYY">
+        <small class="error-message year-error"></small>
+    </div>
+</div>
+<div class="middle">
+  <hr>
+  <button type="submit" id="submitBtn">
+    <img src="assets/images/icon-arrow.svg" alt="no image available">
+</button>
+  
+</div>
+</form>
+
+
+<div class="results">
+    <p><span id="showYear">--</span> years</p>
+    <p><span id="showMonth">--</span> months</p>
+    <p><span id="showDay">--</span> days</p>
+</div>
+        </div>
+     </main>
+
+  
+   <script src="script.js"></script>
+</body>
+</html>
